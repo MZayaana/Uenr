@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join UFS | University Forensics Society</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .join-hero {
+            background-image: url('https://images.pexels.com/photos/1181345/pexels-photo-1181345.jpeg');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="logo-container">
+            <div class="logo">UFS</div>
+            <span class="logo-text">University Forensics Society</span>
+        </div>
+        <nav class="nav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="events.html">Events</a>
+            <a href="blog.html">Blog</a>
+            <a href="join.html" class="active">Join</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <button class="mobile-menu-btn">
+            <i class="fas fa-bars"></i>
+        </button>
+    </header>
+
+    <section class="hero join-hero">
+        <div class="hero-content">
+            <h1>Join Our Society</h1>
+            <p>Become part of the premier debating community at our university</p>
+        </div>
+    </section>
+
+    <section class="join-section">
+        <div class="join-container">
+            <div class="join-columns">
+                <div class="join-form">
+                    <h2>Membership Application</h2>
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="fullName">Full Name *</label>
+                                <input type="text" id="fullName" name="fullName" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="studentId">Student ID *</label>
+                                <input type="text" id="studentId" name="studentId" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">University Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="experience">Debate Experience Level</label>
+                            <select id="experience" name="experience">
+                                <option value="beginner">Beginner (no prior experience)</option>
+                                <option value="intermediate">Intermediate (some experience)</option>
+                                <option value="advanced">Advanced (competitive experience)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="interests">Areas of Interest (select all that apply)</label>
+                            <div class="checkbox-group">
+                                <label><input type="checkbox" name="interests" value="policy"> Policy Debate</label>
+                                <label><input type="checkbox" name="interests" value="parliamentary"> Parliamentary Debate</label>
+                                <label><input type="checkbox" name="interests" value="public"> Public Forum</label>
+                                <label><input type="checkbox" name="interests" value="judging"> Judging/Coaching</label>
+                                <label><input type="checkbox" name="interests" value="events"> Event Organization</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="goals">What do you hope to gain from joining UFS? *</label>
+                            <textarea id="goals" name="goals" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary">Submit Application</button>
+                    </form>
+                </div>
+                <div class="join-benefits">
+                    <h2>Membership Benefits</h2>
+                    <div class="benefits-list">
+                        <div class="benefit-item">
+                            <div class="benefit-icon">
+                                <i class="fas fa-trophy"></i>
+                            </div>
+                            <div class="benefit-content">
+                                <h3>Competition Opportunities</h3>
+                                <p>Compete in regional and national tournaments with travel funding</p>
+                            </div>
+                        </div>
+                        <div class="benefit-item">
+                            <div class="benefit-icon">
+                                <i class="fas fa-chalkboard-teacher"></i>
+                            </div>
+                            <div class="benefit-content">
+                                <h3>Training Workshops</h3>
+                                <p>Weekly sessions with experienced debaters and coaches</p>
+                            </div>
+                        </div>
+                        <div class="benefit-item">
+                            <div class="benefit-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="benefit-content">
+                                <h3>Networking</h3>
+                                <p>Connect with alumni and professionals in law, politics, and business</p>
+                            </div>
+                        </div>
+                        <div class="benefit-item">
+                            <div class="benefit-icon">
+                                <i class="fas fa-book"></i>
+                            </div>
+                            <div class="benefit-content">
+                                <h3>Research Resources</h3>
+                                <p>Access to exclusive debate research materials and databases</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h2>What Our Members Say</h2>
+        <div class="testimonial-container">
+            <div class="testimonial-item">
+                <div class="testimonial-content">
+                    <p>"Joining UFS transformed my university experience. The skills I've gained have been invaluable in my career."</p>
+                </div>
+                <div class="testimonial-author">
+                    <img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg" alt="Sarah J.">
+                    <div>
+                        <h4>Sarah J.</h4>
+                        <p>Law Student, Class of 2022</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-item">
+                <div class="testimonial-content">
+                    <p>"The supportive community and coaching helped me go from beginner to national champion in two years."</p>
+                </div>
+                <div class="testimonial-author">
+                    <img src="https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg" alt="Michael T.">
+                    <div>
+                        <h4>Michael T.</h4>
+                        <p>Political Science, Class of 2023</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>UFS Debate Society</h3>
+                <p>Developing tomorrow's leaders through the power of reasoned discourse.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="events.html">Upcoming Events</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Newsletter</h3>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your email">
+                    <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 University Forensics Society. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle functionality
+        document.querySelector('.mobile-menu-btn').addEventListener('click', function() {
+            document.querySelector('.nav').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

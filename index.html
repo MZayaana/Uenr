@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UENR Forensic Society | Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Hero section */
+        .home-hero {
+            background-image: url('https://images.pexels.com/photos/1181345/pexels-photo-1181345.jpeg');
+            background-size: cover;
+            background-position: center;
+        }
+        
+        /* Animations */
+        .fade-in {
+            animation: fadeIn 1s ease-in;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .btn-pulse:hover {
+            animation: pulse 1.5s infinite;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        .highlight-card:hover {
+            transform: translateY(-5px);
+            transition: transform 0.3s ease;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="logo-container">
+            <div class="logo">UFS</div>
+            <span class="logo-text">UENR Forensics Society</span>
+        </div>
+        <nav class="nav">
+            <a href="index.html" class="active">Home</a>
+            <a href="about.html">About</a>
+            <a href="events.html">Events</a>
+            <a href="resources.html">Resources</a>
+            <a href="blog.html">Blog</a>
+            <a href="join.html">Join</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <button class="mobile-menu-btn">
+            <i class="fas fa-bars"></i>
+        </button>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero home-hero">
+        <div class="hero-content fade-in">
+            <h1>UENR Forensic Society</h1>
+            <p>Gtammar, Rhetoric, Logic.</p>
+            <a href="#highlights" class="btn-primary btn-pulse">Explore More</a>
+        </div>
+    </section>
+
+    <!-- Full Page Sections -->
+    <section id="about" class="page-section">
+        <div class="section-container">
+            <h2>About UFS</h2>
+            <div class="section-content">
+                <div class="section-image">
+                    <img src="https://images.pexels.com/photos/1181622/pexels-photo-1181622.jpeg" alt="Team discussion">
+                </div>
+                <div class="section-text">
+                    <p>Founded in 2013, the UENR Forensic Society has grown to become the premier debating organization on campus with over 200 active members. Our mission is to raise awareness of social issues through active dialogue.</p>
+                    <h3>Key Features:</h3>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check-circle"></i> Award-winning coaching staff with national debate experience</li>
+                        <li><i class="fas fa-check-circle"></i> Training in British Parliamentary debate formats</li>
+                        <li><i class="fas fa-check-circle"></i> Inclusive community welcoming all skill levels</li>
+                        <li><i class="fas fa-check-circle"></i> Weekly workshops and practice sessions</li>
+                    </ul>
+                    <a href="about.html" class="btn-secondary">Learn More About Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="events" class="page-section">
+        <div class="section-container">
+            <h2>Upcoming Events</h2>
+            <div class="section-content reversed">
+                <div class="section-image">
+                    <img src="https://images.pexels.com/photos/1181396/pexels-photo-1181396.jpeg" alt="Debate event">
+                </div>
+                <div class="section-text">
+                    <h3> 2025 Schedule</h3>
+                    <div class="event-list">
+                        <div class="event-item">
+                            <div class="event-date">Oct 15-17</div>
+                            <div class="event-details">
+                                <h4>GUDC Tournament</h4>
+                                <p>A flagship event featuring the top debaters from across the country</p>
+                            </div>
+                        </div>
+                        <div class="event-item">
+                            <div class="event-date">Every Wednesday</div>
+                            <div class="event-details">
+                                <h4>Weekly Meetings</h4>
+                                <p>Skill-building sessions for all experience levels</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="events.html" class="btn-secondary">View Full Calendar</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="resources" class="page-section">
+        <div class="section-container">
+            <h2>Debate Resources</h2>
+            <div class="section-content">
+                <div class="section-image">
+                    <img src="https://images.pexels.com/photos/159866/books-book-pages-read-literature-159866.jpeg" alt="Debate resources">
+                </div>
+                <div class="section-text">
+                    <p>Access our comprehensive library of debate materials, including case files, video tutorials, and research guides.</p>
+                    <div class="resource-stats">
+                        <div class="stat-item">
+                            <div class="stat-number">50+</div>
+                            <div class="stat-label">Training Videos</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">12</div>
+                            <div class="stat-label">Debate Formats</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">100+</div>
+                            <div class="stat-label">Case Studies</div>
+                        </div>
+                    </div>
+                    <a href="resources.html" class="btn-secondary">Browse Resources</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="join" class="page-section">
+        <div class="section-container">
+            <h2>Join UFS</h2>
+            <div class="section-content reversed">
+                <div class="section-image">
+                    <img src="https://images.pexels.com/photos/1181630/pexels-photo-1181630.jpeg" alt="Team meeting">
+                </div>
+                <div class="section-text">
+                    <p>Become part of our vibrant community of thinkers and speakers. No prior experience required - we welcome students of all skill levels.</p>
+                    <div class="benefits-list">
+                        <div class="benefit-item">
+                            <i class="fas fa-star"></i>
+                            <span>Professional coaching and training</span>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-star"></i>
+                            <span>Tournament opportunities</span>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-star"></i>
+                            <span>Networking with alumni</span>
+                        </div>
+                    </div>
+                    <a href="join.html" class="btn-primary btn-pulse">Apply Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="page-section">
+        <div class="section-container">
+            <h2>Contact Us</h2>
+            <div class="section-content">
+                <div class="section-image">
+                    <img src="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg" alt="Contact us">
+                </div>
+                <div class="section-text">
+                    <p>Have questions? Our team is ready to help you learn more about UFS and how to get involved.</p>
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>uenrforensicsociety.edu@gmail.com</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <span>0599126203</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>UENR Sunyani Campus</span>
+                        </div>
+                    </div>
+                    <a href="contact.html" class="btn-secondary">Send a Message</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="join" class="page-section">
+        <div class="section-container">
+            <h2>Join Our Society</h2>
+            <div class="section-content reversed">
+                <div class="section-image">
+                    <img src="https://images.pexels.com/photos/1181630/pexels-photo-1181630.jpeg" alt="Team meeting">
+                </div>
+                <div class="section-text">
+                    <h3>Membership Benefits</h3>
+                    <p>Join our vibrant community of thinkers and speakers. No prior experience required!</p>
+                    <div class="benefits-list">
+                        <div class="benefit-item">
+                            <i class="fas fa-star"></i>
+                            <div>
+                                <h4>All Skill Levels Welcome</h4>
+                                <p>From beginners to experienced debaters</p>
+                            </div>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-star"></i>
+                            <div>
+                                <h4>Free Membership</h4>
+                                <p>No fees to join our core programs</p>
+                            </div>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-star"></i>
+                            <div>
+                                <h4>Travel Opportunities</h4>
+                                <p>Compete in regional and national tournaments</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="join.html" class="btn-primary btn-pulse">Apply Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="page-section">
+        <div class="section-container">
+            <h2>Contact Us</h2>
+            <div class="section-content">
+                <div class="section-image">
+                    <img src="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg" alt="Contact us">
+                </div>
+                <div class="section-text">
+                    <h3>Get In Touch</h3>
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>UENR Sunyani Campus</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>uenrforensicsociety.edu@gmail.com</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <span>0599126203</span>
+                        </div>
+                    </div>
+                    <a href="contact.html" class="btn-secondary">Send Message</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonial-section">
+        <h2>What Members Say</h2>
+        <div class="testimonial-slider">
+            <div class="testimonial active">
+                <p>"UFS transformed my public speaking skills and gave me lifelong friends."</p>
+                <div class="testimonial-author">- Sarah, Political Science</div>
+            </div>
+            <div class="testimonial">
+                <p>"The coaching I received helped me win regional championships."</p>
+                <div class="testimonial-author">- Michael, Law</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollTopBtn" class="scroll-top-btn" title="Go to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>UFS Debate Society</h3>
+                <p>Developing tomorrow's leaders through the power of reasoned discourse.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="events.html">Upcoming Events</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Newsletter</h3>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your email">
+                    <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 University Forensics Society. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Scroll to top button
+        const scrollTopBtn = document.getElementById('scrollTopBtn');
+        
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                scrollTopBtn.classList.add('show');
+            } else {
+                scrollTopBtn.classList.remove('show');
+            }
+        });
+
+        scrollTopBtn.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+        // Testimonial slider
+        const testimonials = document.querySelectorAll('.testimonial');
+        let currentTestimonial = 0;
+        
+        function showTestimonial(index) {
+            testimonials.forEach(t => t.classList.remove('active'));
+            testimonials[index].classList.add('active');
+            currentTestimonial = index;
+        }
+        
+        setInterval(() => {
+            let nextIndex = (currentTestimonial + 1) % testimonials.length;
+            showTestimonial(nextIndex);
+        }, 5000);
+
+        // Mobile menu toggle
+        document.querySelector('.mobile-menu-btn').addEventListener('click', function() {
+            document.querySelector('.nav').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
